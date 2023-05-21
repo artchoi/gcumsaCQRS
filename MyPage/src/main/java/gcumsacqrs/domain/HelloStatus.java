@@ -17,4 +17,5 @@ public class HelloStatus {
     private Long helloId;
     private Long worldId;
     private String hello;
+    private String world;
 }

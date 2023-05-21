@@ -5,12 +5,12 @@
 ### Cluster에 mypage Service를 생성하려면 아래의 명령어를 실행하세요.
 
 ```
-$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Service/mypage.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230520T232643Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=35262e2f74f1c0cfdb88ca832aa02a6f7cc9339d8dad3016d2ddc78f599e9c6b
+$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Service/mypage.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230521%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230521T010056Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=099bc5922132fdbfef758fd77c2247b71311f687bbff179c5ae29b66188da260
 ```
 - Yaml 파일에 명시된 스펙으로 mypage Service를 생성합니다.  
 
 ```
-$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Service/mypage.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230520T232643Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=35262e2f74f1c0cfdb88ca832aa02a6f7cc9339d8dad3016d2ddc78f599e9c6b
+$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Service/mypage.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230521%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230521T010056Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=099bc5922132fdbfef758fd77c2247b71311f687bbff179c5ae29b66188da260
 ```
 - Create가 된 상태라면 mypage Service의 수정이 이루어지고, Create가 된 상태가 아니라면 mypage Service를 Create 해주는 명령어입니다.
 #

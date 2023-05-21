@@ -5,12 +5,12 @@
 ### Cluster에 mypage Deployment를 생성하려면 아래의 명령어를 실행하세요.
 
 ```
-$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Deployment/mypage.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230520T232643Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=f97f90720cda493ab71ec6caf1743908bd6c6d531eecf78ef20c0b0aeb2a7b7c
+$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Deployment/mypage.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230521%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230521T010056Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=f63d44d63dc85c1637e8c1e8bd7922bc4dd7144fdbe4905c24aa9676d5ce0a86
 ```
 - Yaml 파일에 명시된 스펙으로 mypage Deployment를 생성합니다.
 
 ```
-$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Deployment/mypage.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230520T232643Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=f97f90720cda493ab71ec6caf1743908bd6c6d531eecf78ef20c0b0aeb2a7b7c
+$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Deployment/mypage.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230521%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230521T010056Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=f63d44d63dc85c1637e8c1e8bd7922bc4dd7144fdbe4905c24aa9676d5ce0a86
 ```
 - Create가 된 상태라면 mypage Deployment의 수정이 이루어지고, Create가 된 상태가 아니라면 mypage Deployment를 Create 해주는 명령어입니다.  
 #

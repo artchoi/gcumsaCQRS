@@ -5,12 +5,12 @@
 ### Cluster에 inhello Service를 생성하려면 아래의 명령어를 실행하세요.
 
 ```
-$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Service/inhello.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230520T232643Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=caacb340880a9ec71f5c034f69784fbc962015eb8b12cecf7354f6198dcae75b
+$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Service/inhello.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230521%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230521T010056Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=dec7f30fa96d0092c9f54e855f7f403debb0afbc9115af62829dcdc46e7a994c
 ```
 - Yaml 파일에 명시된 스펙으로 inhello Service를 생성합니다.  
 
 ```
-$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Service/inhello.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230520T232643Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=caacb340880a9ec71f5c034f69784fbc962015eb8b12cecf7354f6198dcae75b
+$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Service/inhello.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230521%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230521T010056Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=dec7f30fa96d0092c9f54e855f7f403debb0afbc9115af62829dcdc46e7a994c
 ```
 - Create가 된 상태라면 inhello Service의 수정이 이루어지고, Create가 된 상태가 아니라면 inhello Service를 Create 해주는 명령어입니다.
 #

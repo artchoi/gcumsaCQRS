@@ -5,12 +5,12 @@
 ### Cluster에 outhello Deployment를 생성하려면 아래의 명령어를 실행하세요.
 
 ```
-$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Deployment/outhello.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230520T232643Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=835ca3a93e40d1d67bff8f37ddd0aecd9a646860b67e10affb932d53e60da131
+$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Deployment/outhello.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230521%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230521T010056Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=1a9e53c794319b1a2f3e18e887be2be9b564a55d0fc0dc819de069ef25d59dd4
 ```
 - Yaml 파일에 명시된 스펙으로 outhello Deployment를 생성합니다.
 
 ```
-$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Deployment/outhello.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230520T232643Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=835ca3a93e40d1d67bff8f37ddd0aecd9a646860b67e10affb932d53e60da131
+$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Deployment/outhello.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230521%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230521T010056Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=1a9e53c794319b1a2f3e18e887be2be9b564a55d0fc0dc819de069ef25d59dd4
 ```
 - Create가 된 상태라면 outhello Deployment의 수정이 이루어지고, Create가 된 상태가 아니라면 outhello Deployment를 Create 해주는 명령어입니다.  
 #

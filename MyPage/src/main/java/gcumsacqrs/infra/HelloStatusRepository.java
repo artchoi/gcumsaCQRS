@@ -10,4 +10,6 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
     path = "helloStatuses"
 )
 public interface HelloStatusRepository
-    extends PagingAndSortingRepository<HelloStatus, Long> {}
+    extends PagingAndSortingRepository<HelloStatus, Long> {
+    List<HelloStatus> findByHello(String hello);
+}

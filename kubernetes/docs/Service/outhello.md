@@ -5,12 +5,12 @@
 ### Cluster에 outhello Service를 생성하려면 아래의 명령어를 실행하세요.
 
 ```
-$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Service/outhello.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230520T232643Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=6f24f6a6a64a171fb6a5a7e91b544729195d3307f5e7b1432093205d8aec07c1
+$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Service/outhello.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230521%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230521T010056Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=62a714a4b1328aa339d6e9f40bed992eb58726bc10195a018c70cc9fa63401c4
 ```
 - Yaml 파일에 명시된 스펙으로 outhello Service를 생성합니다.  
 
 ```
-$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Service/outhello.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230520T232643Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=6f24f6a6a64a171fb6a5a7e91b544729195d3307f5e7b1432093205d8aec07c1
+$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/gcumsacqrs/artchoi0g%40gmail.com/Service/outhello.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230521%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230521T010056Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=62a714a4b1328aa339d6e9f40bed992eb58726bc10195a018c70cc9fa63401c4
 ```
 - Create가 된 상태라면 outhello Service의 수정이 이루어지고, Create가 된 상태가 아니라면 outhello Service를 Create 해주는 명령어입니다.
 #
