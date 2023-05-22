@@ -44,6 +44,7 @@ public class HelloStatusViewHandler {
             HelloStatus helloStatus = new HelloStatus();
             // view 객체에 이벤트의 Value 를 set 함
             helloStatus.setWorld(worlded.getWorld());
+            helloStatus.setHelloId(worlded.getId());
             // view 레파지 토리에 save
             helloStatusRepository.save(helloStatus);
         } catch (Exception e) {
@@ -57,14 +58,13 @@ public class HelloStatusViewHandler {
             if (!hellod.validate()) return;
             // view 객체 조회
 
-            List<HelloStatus> helloStatusList = helloStatusRepository.findByHello(
-                hellod.getHello()
+            List<HelloStatus> helloStatusList = helloStatusRepository.findByWorldId(
+                hellod.getId()
             );
             for (HelloStatus helloStatus : helloStatusList) {
                 // view 객체에 이벤트의 eventDirectValue 를 set 함
                 helloStatus.setId(hellod.getId());
                 helloStatus.setHelloId(hellod.getId());
-                helloStatus.setWorldId(hellod.getId());
                 helloStatus.setWorldId(hellod.getId());
                 helloStatus.setHello(hellod.getHello());
                 // view 레파지 토리에 save
@@ -81,6 +81,16 @@ public class HelloStatusViewHandler {
             if (!worlded.validate()) return;
             // view 객체 조회
 
+            List<HelloStatus> helloStatusList = helloStatusRepository.findByHelloId(
+                worlded.getId()
+            );
+            for (HelloStatus helloStatus : helloStatusList) {
+                // view 객체에 이벤트의 eventDirectValue 를 set 함
+                helloStatus.setWorld(worlded.getWorld());
+                helloStatus.setHelloId(worlded.getId());
+                // view 레파지 토리에 save
+                helloStatusRepository.save(helloStatus);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }

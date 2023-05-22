@@ -11,5 +11,6 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 )
 public interface HelloStatusRepository
     extends PagingAndSortingRepository<HelloStatus, Long> {
-    List<HelloStatus> findByHello(String hello);
+    List<HelloStatus> findByWorldId(Long worldId);
+    List<HelloStatus> findByHelloId(Long helloId);
 }

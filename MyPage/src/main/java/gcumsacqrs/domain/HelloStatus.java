@@ -18,4 +18,5 @@ public class HelloStatus {
     private Long worldId;
     private String hello;
     private String world;
+    private Integer count;
 }

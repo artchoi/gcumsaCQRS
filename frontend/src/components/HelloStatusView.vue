@@ -26,6 +26,7 @@
                 { text: "worldId", value: "worldId" },
                 { text: "hello", value: "hello" },
                 { text: "world", value: "world" },
+                { text: "count", value: "count" },
             ],
             helloStatus : [],
         }),

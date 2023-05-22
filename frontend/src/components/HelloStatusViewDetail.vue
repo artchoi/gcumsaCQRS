@@ -18,6 +18,9 @@
             <div>
                 <String label="World" v-model="item.world" :editMode="editMode" @change="change" />
             </div>
+            <div>
+                <Number label="Count" v-model="item.count" :editMode="editMode" @change="change" />
+            </div>
         </v-card-text>
     </v-card>
 
